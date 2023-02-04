@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz Questions</title>
+</head>
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-dark bg-dark formNav">
+    <a class="navbar-brand" href="home.html"><img  class="logo" src="./Img/graduation-cap.png" alt="" srcset=""></a>
+
+    <h3 class="text-white">QUIZ SESSION</h3>
+
+    <h3 class="text-white"><a href="home.html" class="text-white">Home</a></h3>
+  </nav>
+  <!-- QUIZ QUESTION -->
+  <div class="container mt-5">
+    <!-- <strong class="text-danger">Note : <u>Instruction</u></strong> -->
+    <!-- <p>
+      <ol class=" list-group-numbered">
+        <li class="list-group-item">All students are required to answer 10 questions and 2 minute is the alloted time to the questions</li>
+        <li class="list-group-item">Please ensure you have stable network before you start the quiz</li>
+        <li class="list-group-item">Only one attempt for each user.</li>
+      </ol>
+    </p> -->
+    <div class="quiz-box">
+      <div id="quiz">
+        <h1>Lumen et Veritas Academy Quiz</h1>
+      <div class="quiz-header">
+        <p id="progress"></p>
+        <p id="count-down">2</p>
+      </div>
+      <p id="question">Hyper Text Markup Language Stands For</p>
+
+      <div class="buttons">
+        <button class="btn" id="btn0">
+          A. <span id="choice0"></span>
+        </button>
+        <button class="btn" id="btn1">
+          B. <span id="choice1"></span>
+        </button>
+        <button class="btn" id="btn2">
+          C. <span id="choice2"></span>
+        </button>
+        <button class="btn" id="btn3">
+          D. <span id="choice3"></span>
+        </button>
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; Janoth Qiuz</p>
+      </footer>
+      </div>
+    </div>
+  </div>
+  <footer class="base-footer">
+    <small class="footer-left"
+      >&copy; Janoth. 2022 | All rights reserved.</small
+    >
+</body>
+<script src="app.js"></script>
+<!-- <script src="bootstrap.bundle.min.js"></script> -->
+</html>

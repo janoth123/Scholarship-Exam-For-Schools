@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Lumen et Veritas Academy Quiz 2021/2022_Form Page</title>
+</head>
+<body>
+  <!-- NavBar -->
+  <div class="container">
+    <nav class="navbar navbar-dark bg-dark formNav">
+      <a class="navbar-brand" href="home.html"><img  class="logo" src="./Img/graduation-cap.png" alt="" srcset=""></a>
+  
+      <h3 class="text-white fs-6">Lumen et Veritas Academy Quiz For 2021/2022 Session</h3>
+  
+      <h3 class="text-white fs-6"><a href="home.html" class="text-white">Home</a></h3>
+    </nav>
+      <h4 class="text-danger text-center mandatoryFee mt-5">All schools are adviced to pay their registration fee of #5,000 before registering <br> else they face automatic disqualification.</h4>
+    <div class="formHolder">
+      <div class="shadow-sm p-3 mb-5 bg-body text-center fw-400 rounded">
+        <a href="#" class="schReg">SCHOOL REGISTRATION</a> |
+        <a href="#" class="stdReg">STUDENT REGISTRATION</a> |
+        <a href="#" class="stdLog">STUDENT LOGIN</a>
+      </div>
+      <div class="dropdown-divider"></div>
+      <!-- Login Form -->
+      <form action="" class="regForm logForm active">
+        <h3>Student Login</h3>
+        <div>
+          <label class="mt-6">Email :</label>
+          <input required type="text" placeholder=' xyz@hi.com' id="email">
+        </div>
+        <div>
+          <label class="mt-6">Password :</label>
+          <input required type="password" placeholder=' Enter phone number' id="psw" min="10" maxlength="11">
+        </div>
+        <button type="submit" class="btnStdLogin">Login</button>
+        <div class="msg"></div>
+      </form>
+      <!-- School registration -->
+      <form action="" class="regForm schForm">
+        <!-- <center> -->
+          <!-- NAME OF SCHOOL -->
+          <h3>School Registration</h3>
+          <div>
+            <label for="">Name of school : </label>
+            <input required type="text" placeholder="Enter name of school" id="schName">
+          </div>
+    
+          <div>
+            <!-- SCHOOL EMAIL -->
+            <label for="">School Email: </label>
+            <input required id="schEmail" type="email" placeholder="School Email">
+          </div>
+    
+          <!-- ADDRESS -->
+          <div>
+            <label for="">School Address : </label>
+            <input required type="text" placeholder="School Address" id="schAddress">
+          </div>
+    
+          <!-- Phone Number -->
+          <div>
+            <label for="">School Ph/Number :</label>
+            <input required type="text" placeholder="School Name" id="schPhone">
+          </div>
+    
+          <button class="btnSchReg">School Registration</button>
+        <!-- </center> -->
+      </form>
+      <!-- Student registration -->
+      <form action="" class="regForm stdForm w-50">
+        <!-- <center> -->
+          <!-- NAME OF SCHOOL -->
+          <h3>Student Registration</h3>
+          <div>
+            <label for="">Name of student : </label>
+            <input required type="text" placeholder="Enter Your Name" id="stdName">
+          </div>
+    
+          <div>
+            <!-- SCHOOL EMAIL -->
+            <label for="">Student Email: </label>
+            <input required type="email" placeholder="School Email" id="stdEmail">
+          </div>
+    
+          <!-- ADDRESS -->
+          <div>
+            <label for="">Student Address : </label>
+            <input required type="text" placeholder="School Address" id="stdAddress">
+          </div>
+
+          <!-- Select school -->
+          <div>
+            <label for="">Select school : </label>
+            <select name="" id="selectedSch">
+              <option disabled > Select School</option>
+            </select>
+          </div>
+
+          <!-- Phone NUMBER -->
+          <div>
+            <label for="">Phone Number : </label>
+            <input required type="number" placeholder="Enter Phone Number" id="pNumber" min="10" maxlength="11">
+            </select>
+          </div>
+    
+          <button class="btnStdReg">Student Registration</button>
+        <!-- </center> -->
+      </form>
+    </div>
+    <!-- Login -->
+    
+    <!-- End of login -->
+    <footer class="base-footer">
+      <small class="footer-left"
+        >&copy; Janoth. 2022 | All rights reserved.</small
+      >
+  </div>
+</body>
+<script src="app.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+</html>
